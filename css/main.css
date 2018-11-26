@@ -1,0 +1,71 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#main-header { max-width: 1200px; margin: 20px auto; text-align: center; }
+#main-header .title { font: 2em raleway; }
+.cat1,.cat2,.cat3,.cat4 { width: 25%; float: left; font: 1.25em raleway; color: #444; }
+.book-categories { padding: 20px 0; }
+.main-product-search {
+  clear: both;
+  display: block;
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 40px 0;
+  text-align: center;
+  background: url("https://source.unsplash.com/uY67m4e74mQ");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 600px;
+}
+.main-product-search .header-text {
+  font: 1.5rem raleway;
+  max-width: 1150px;
+  margin: 10px 150px;
+  color: #fff;
+}
+.main-product-inner {
+  background-color: transparent;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.category-tabs {
+  margin: 30px 0 0 0;
+}
+.tab-link {
+  width: 24.74%;
+  height: 50px;
+  background: transparent;
+  color: #fff;
+  border: none;
+  font: 1.5rem raleway;
+}
+.tab-link:hover {
+  background: #eee;
+  cursor: pointer;
+  color: #444;
+}
+
+.tabcontent {
+  background-color: #fff;
+  padding: 20px 20px;
+  text-align: left;
+  border-radius: 0 0 10px 10px;
+}
+
+.active {
+  background-color: #fff !important;
+  color: #444;
+  transition: all .25s ease-in;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#By-Price, #Great-Deals, #By-Category {
+  display: none;
+  background: #fff;
+}
